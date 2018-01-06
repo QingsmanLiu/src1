@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: daemon - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1.SDW\AppData\Local\Temp\RSPCD1F.tmp" with contents
+[
+/nologo /MLd /Gm /GX /ZI /Od /I "src" /I "../inc" /I "../mt6582/bionic/libc/include" /I "../pthread_w32/src" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D __STDC__=0 /D "PTW32_BUILD" /FR"Debug/" /Fp"Debug/daemon.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\clkj\src\car3\fsync\src\fsync.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1.SDW\AppData\Local\Temp\RSPCD1F.tmp" 
+Creating temporary file "C:\Users\ADMINI~1.SDW\AppData\Local\Temp\RSPCD20.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wsock32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/daemon.pdb" /debug /machine:I386 /out:"Debug/daemon.exe" /pdbtype:sept 
+.\Debug\ff_dummy.obj
+.\Debug\fsync.obj
+..\pthread_w32\debug\pthreadVC2.lib
+]
+Creating command line "link.exe @C:\Users\ADMINI~1.SDW\AppData\Local\Temp\RSPCD20.tmp"
+<h3>Output Window</h3>
+Compiling...
+fsync.c
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/daemon.bsc"  .\Debug\ff_dummy.sbr .\Debug\fsync.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+daemon.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
