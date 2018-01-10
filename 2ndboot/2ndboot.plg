@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 2ndboot - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1.SDW\AppData\Local\Temp\RSP2BA1.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../inc" /I "../inc/mcu" /I "../stm32lib" /I "../stm32lib/CMSIS/Device/Include" /I "../stm32lib/CMSIS/Include" /I "../stm32lib/STM32F0xx_StdPeriph_Driver/inc" /I "./src" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "USE_STDPERIPH_DRIVER" /D "STM32F072" /D CODE_FOR_MCU_BOOT=1 /FR"Debug/" /Fp"Debug/2ndboot.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\src\car3\2ndboot\src\main.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1.SDW\AppData\Local\Temp\RSP2BA1.tmp" 
+Creating temporary file "C:\Users\ADMINI~1.SDW\AppData\Local\Temp\RSP2BA2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/2ndboot.pdb" /debug /machine:I386 /out:"Debug/2ndboot.exe" /pdbtype:sept 
+.\Debug\drv_uart_poll.obj
+.\Debug\main.obj
+.\Debug\stm32f0xx_it.obj
+.\Debug\stm32f0xx_iwdg.obj
+.\Debug\system_stm32f0xx.obj
+.\Debug\stm32f0xx_flash.obj
+.\Debug\stm32f0xx_gpio.obj
+.\Debug\stm32f0xx_pwr.obj
+.\Debug\stm32f0xx_rcc.obj
+.\Debug\stm32f0xx_rtc.obj
+.\Debug\stm32f0xx_usart.obj
+.\Debug\dummy.obj
+.\Debug\drv_flash.obj
+.\Debug\drv_gpio.obj
+.\Debug\drv_rtc.obj
+.\Debug\drv_wdog.obj
+.\Debug\misc.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1.SDW\AppData\Local\Temp\RSP2BA2.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.c
+Linking...
+Creating temporary file "C:\Users\ADMINI~1.SDW\AppData\Local\Temp\RSP2C01.tmp" with contents
+[
+/nologo /o"Debug/2ndboot.bsc" 
+.\Debug\drv_uart_poll.sbr
+.\Debug\main.sbr
+.\Debug\stm32f0xx_it.sbr
+.\Debug\stm32f0xx_iwdg.sbr
+.\Debug\system_stm32f0xx.sbr
+.\Debug\stm32f0xx_flash.sbr
+.\Debug\stm32f0xx_gpio.sbr
+.\Debug\stm32f0xx_pwr.sbr
+.\Debug\stm32f0xx_rcc.sbr
+.\Debug\stm32f0xx_rtc.sbr
+.\Debug\stm32f0xx_usart.sbr
+.\Debug\dummy.sbr
+.\Debug\drv_flash.sbr
+.\Debug\drv_gpio.sbr
+.\Debug\drv_rtc.sbr
+.\Debug\drv_wdog.sbr
+.\Debug\misc.sbr]
+Creating command line "bscmake.exe @C:\Users\ADMINI~1.SDW\AppData\Local\Temp\RSP2C01.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+2ndboot.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
